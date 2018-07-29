@@ -1,28 +1,13 @@
-<template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template id="main-page">
+  <v-ons-page>
+    <v-ons-toolbar>
+      <div class="center">Login</div>
+    </v-ons-toolbar>
+  
+    <p style="text-align: center">
+      <v-ons-button @click="$ons.notification.alert('Hello World!')">
+        Click me!
+      </v-ons-button>
+    </p>
+  </v-ons-page>
 </template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
-</script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

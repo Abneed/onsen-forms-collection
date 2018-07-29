@@ -1,5 +1,13 @@
+// Webpack CSS import
+import 'onsenui/css/onsenui.css';
+import 'onsenui/css/onsen-css-components.css';
+
+// JS import
 import Vue from 'vue'
-import App from './App.vue'
+import VueOnsen from 'vue-onsenui'; // This already imports 'onsenui'
+import App from './components/Registrate.vue'
+
+Vue.use(VueOnsen); // Plugin VueOnsen to Vue.
 
 Vue.config.productionTip = false
 
