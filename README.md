@@ -1,6 +1,6 @@
 # onsen-forms-collection
 
-![Imagen de Fake Uber](docs/fakeuber_loginForm.png)
+![Imagen de Fake Uber](docs/img/fakeuber_loginForm.png)
 
 ## Project setup
 ```
