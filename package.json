@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "eslint": "^5.2.0",
     "onsenui": "^2.10.4",
     "vue": "^2.5.16",
     "vue-onsenui": "^2.6.1"
