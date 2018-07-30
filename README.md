@@ -1,4 +1,4 @@
-# onsen-forms-collection
+# onsen-vue-forms-collection
 
 ![Imagen de Fake Uber](docs/img/fakeuber_loginForm.png)
 
